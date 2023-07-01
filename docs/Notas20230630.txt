@@ -1,0 +1,20 @@
+Implementar un framework de Membresía (Administración de usuarios, autenticación)
+- Clean Architecture
+
+Backend:
+  -- Registrar Usuarios
+     - Locales
+     - Externos (Autenticados por OAuth: Google, Facebook, AZ AD, Twitter)
+  -- Inicio de Sesión (Bearer Token)
+     - Locales
+     - Externos
+  -- Refresh Token
+
+FrontEnd
+  -- Registrar Usuarios
+     - Locales
+     - Externos (Autenticados por OAuth: Google, Facebook, AZ AD, Twitter)
+  -- Inicio de Sesión (Bearer Token)
+     - Locales
+     - Externos
+  -- Refresh Token
