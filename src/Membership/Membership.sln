@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Membership.Shared.Abstractions", "Membership.Shared.Abstractions\Membership.Shared.Abstractions.csproj", "{88DE9792-5C6E-4657-BDB6-3DF883299DA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{0AD268AB-CE18-433A-AD7E-1D034C874733}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{111D1DC8-3895-429E-9FD2-76F4C7E6C8AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{AAECFBA2-E53A-42A5-A2AF-47903AD0F3C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Membership.Abstractions", "Membership.Abstractions\Membership.Abstractions.csproj", "{2E93A856-D09E-45BA-ABF0-0C4E3D8FC734}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88DE9792-5C6E-4657-BDB6-3DF883299DA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88DE9792-5C6E-4657-BDB6-3DF883299DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88DE9792-5C6E-4657-BDB6-3DF883299DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88DE9792-5C6E-4657-BDB6-3DF883299DA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E93A856-D09E-45BA-ABF0-0C4E3D8FC734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E93A856-D09E-45BA-ABF0-0C4E3D8FC734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E93A856-D09E-45BA-ABF0-0C4E3D8FC734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E93A856-D09E-45BA-ABF0-0C4E3D8FC734}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{88DE9792-5C6E-4657-BDB6-3DF883299DA9} = {AAECFBA2-E53A-42A5-A2AF-47903AD0F3C6}
+		{2E93A856-D09E-45BA-ABF0-0C4E3D8FC734} = {0AD268AB-CE18-433A-AD7E-1D034C874733}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B5D35B0-A90A-438B-B88A-719EB2F902CB}
+	EndGlobalSection
+EndGlobal
